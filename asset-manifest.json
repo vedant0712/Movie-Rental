@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Movie-Rental/static/css/main.18c07094.chunk.css",
+    "main.js": "/Movie-Rental/static/js/main.af459f09.chunk.js",
+    "main.js.map": "/Movie-Rental/static/js/main.af459f09.chunk.js.map",
+    "runtime-main.js": "/Movie-Rental/static/js/runtime-main.d0257050.js",
+    "runtime-main.js.map": "/Movie-Rental/static/js/runtime-main.d0257050.js.map",
+    "static/css/2.07a9e034.chunk.css": "/Movie-Rental/static/css/2.07a9e034.chunk.css",
+    "static/js/2.caa612ac.chunk.js": "/Movie-Rental/static/js/2.caa612ac.chunk.js",
+    "static/js/2.caa612ac.chunk.js.map": "/Movie-Rental/static/js/2.caa612ac.chunk.js.map",
+    "index.html": "/Movie-Rental/index.html",
+    "precache-manifest.485997588eb67c6441efa0cf6a5b8524.js": "/Movie-Rental/precache-manifest.485997588eb67c6441efa0cf6a5b8524.js",
+    "service-worker.js": "/Movie-Rental/service-worker.js",
+    "static/css/2.07a9e034.chunk.css.map": "/Movie-Rental/static/css/2.07a9e034.chunk.css.map",
+    "static/css/main.18c07094.chunk.css.map": "/Movie-Rental/static/css/main.18c07094.chunk.css.map",
+    "static/media/font-awesome.css": "/Movie-Rental/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0257050.js",
+    "static/css/2.07a9e034.chunk.css",
+    "static/js/2.caa612ac.chunk.js",
+    "static/css/main.18c07094.chunk.css",
+    "static/js/main.af459f09.chunk.js"
+  ]
+}
