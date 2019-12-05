@@ -6,6 +6,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import TagManager from 'react-gtm-module'
+ 
+const tagManagerArgs = {
+    gtmId: 'GTM-W8W5VB5'
+}
+ 
+TagManager.initialize(tagManagerArgs)
+
 
 console.log("SUPERMAN",process.env.REACT_APP_NAME);
 ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
