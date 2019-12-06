@@ -16,6 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 
 class App extends Component {
+	console.log("Running")
 	state={};
 
 	componentDidMount() {
