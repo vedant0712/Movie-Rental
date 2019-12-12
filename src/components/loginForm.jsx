@@ -20,6 +20,7 @@ class LoginForm extends Form {
 			const {data} = this.state;
 			await auth.login(data.username,data.password);
 			window.smartech('identify','data.username');
+			window.smartech('dispatch',1,{});
 			const {state}=this.props.location;
 
 			window.location=state?state.from.pathname : '/';
