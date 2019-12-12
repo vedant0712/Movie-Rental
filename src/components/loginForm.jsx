@@ -19,7 +19,7 @@ class LoginForm extends Form {
 		try {
 			const {data} = this.state;
 			await auth.login(data.username,data.password);
-			await window.smartech('identify','data.username');
+			await window.smartech('identify',data.username);
 			await window.smartech('dispatch',1,{});
 			const {state}=this.props.location;
 
