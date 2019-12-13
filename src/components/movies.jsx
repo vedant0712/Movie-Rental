@@ -56,7 +56,9 @@ class Movies extends Component {
   	};
 
 	handleLike = (movie) => {
-		window.smartech('dispatch','Movie Liked', movie.title)
+		window.smartech('dispatch','Liked Movies', {
+			'Movie Name': movie.title
+		})
 		const movies = [...this.state.movies];
 		const index = movies.indexOf(movie);
 		movies[index] ={...movies[index]};
